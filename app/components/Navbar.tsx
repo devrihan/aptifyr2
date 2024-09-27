@@ -27,7 +27,7 @@ const Navbar = () => {
         <li><a href="/" className="hover:underline">Home</a></li>
         <li><a href="/aboutus" className="hover:underline">About Us</a></li>
         <li><a href="/ourskills" className="hover:underline">Skills</a></li>
-        <li><a href="/auth/login" className="hover:underline">Login</a></li>
+        {/* <li><a href="/auth/login" className="hover:underline">Login</a></li> */}
         <li><a href="/#contact" className="hover:underline">Contact Us</a></li>
       </ul>
       {isOpen && (
@@ -36,7 +36,7 @@ const Navbar = () => {
             <li><a href="/" className="hover:underline">Home</a></li>
             <li><a href="/aboutus" className="hover:underline">About Us</a></li>
             <li><a href="/ourskills" className="hover:underline">Skills</a></li>
-            <li><a href="/auth/login" className="hover:underline">Login</a></li>
+            {/* <li><a href="/auth/login" className="hover:underline">Login</a></li> */}
             <li><a href="/#contact" className="hover:underline">Contact Us</a></li>
           </ul>
         </div>
