@@ -55,7 +55,7 @@ const OurSkills = () => {
           <Image src="/ourskills.png" className="xl:absolute xl:bottom-0 xl:px-0 px-6" alt="our skills" width={500} height={500} />
         </div>
         <div className="w-full xl:w-2/3 p-4 md:p-8 flex justify-center items-center flex-col h-[200vh] md:h-auto">
-          <h1 className="text-3xl md:text-5xl text-center font-bold text-black font-bebas">Categories We Cover</h1>
+          <h1 className="text-3xl md:text-5xl text-center font-bold text-black font-bebas">CATEGORIES WE COVER</h1>
           <div className="flex flex-col md:flex-row justify-center items-center m-8 space-x-0 md:space-x-4 space-y-4 md:space-y-0">
             <div className="flex flex-col space-y-4 h-auto md:h-[90vh]">
               {leftBoxes.map((box, index) => (

@@ -21,7 +21,7 @@ const ContactUs = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const { name, email, phone, message } = formData;
-    const mailtoLink = `mailto:aptifyrofficial@gmail.com?subject=Contact%20Form%20Submission&body=${encodeURIComponent(message)}%0A%0AFrom%2C%0A${encodeURIComponent(name)}%0A${encodeURIComponent(email)}%0A${encodeURIComponent(phone)}`;
+    const mailtoLink = `mailto:contact@aptifyr.in?subject=Contact%20Form%20Submission&body=${encodeURIComponent(message)}%0A%0AFrom%2C%0A${encodeURIComponent(name)}%0A${encodeURIComponent(email)}%0A${encodeURIComponent(phone)}`;
     window.location.href = mailtoLink;
   };
 
@@ -38,7 +38,7 @@ const ContactUs = () => {
             <Image src="/contactus/email.png" width={30} height={30} alt="Contact Us" />
             <span className="text-2xl font-poppins font-semibold">Email</span>
           </div>
-          <span className="text-lg font-poppins ml-10 mt-0">aptifyrofficial@gmail.com</span>
+          <span className="text-lg font-poppins ml-10 mt-0">contact@aptifyr.in</span>
         </div>
         <div className="flex flex-col items-start space-y-2 mt-8">
           <div className="flex items-center space-x-2">

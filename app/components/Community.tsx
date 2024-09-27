@@ -10,7 +10,7 @@ const Community = () => {
         </div>
         <div className="flex flex-col text-white justify-center items-start w-full xl:w-1/2">
           <h1 className="font-poppins text-2xl md:text-3xl xl:text-4xl font-bold mb-4">
-            Join our <span className="text-[#A131DC]">comminity</span> of learners
+            Join our <span className="text-[#A131DC]">community</span> of learners
           </h1>
           <p className="font-poppins text-lg md:text-2xl xl:text-xl">
             Become a part of our vibrant and diverse community dedicated to continuous learning and personal growth. By joining us, you’ll gain access to a wealth of resources, engaging sessions, and collaborative opportunities that will empower you to expand your knowledge and skills. Connect with

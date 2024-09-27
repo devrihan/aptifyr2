@@ -12,7 +12,7 @@ interface CardData {
 
 const combinedData: CardData[] = [
   {
-    "title": "Raheel Akhtar",
+    "title": "Danish Akhtar",
     "text": "“The sessions were incredibly insightful and well-organized. I've gained valuable knowledge that I can apply to my work immediately.”",
     "imageUrl": "/reviews/raheel_akhtar.png"
   },
@@ -57,7 +57,7 @@ const combinedData: CardData[] = [
     "imageUrl": "/reviews/suresh_joshi.png"
   },
   {
-    "title": "Kavita Iyer",
+    "title": "Aisha Khan",
     "text": "“I’m impressed with the quality and relevance of the sessions. The community is supportive, and I’ve made great connections through this platform.”",
     "imageUrl": "/reviews/kavita_iyer.png"
   }
@@ -115,7 +115,7 @@ const Carousel = () => {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', marginBottom: '4rem' }} className='scroll-animation'>
-      <h2 className="font-poppins text-2xl my-8 font-semibold px-8">
+      <h2 className="font-bebas text-2xl my-8 font-semibold px-8">
         Don&apos;t take our word for it, see what the <span style={{ color: '#A131DC' }}>community</span> is saying
       </h2>
       <div className="carousel ">

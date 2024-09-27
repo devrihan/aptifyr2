@@ -47,11 +47,11 @@ const Footer = () => {
                   ABOUT US
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/login" className="text-muted-foreground hover:text-primary">
                   LOGIN
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
           <div className="space-y-2 w-[30%]">
@@ -81,7 +81,7 @@ const Footer = () => {
         <div className=" flex justify-center items-center flex-col space-y-2 w-full md:w-[40%]">
           <Image src="/footer_logo.png" alt="Aptifyr Logo" width={300} height={300} />
           <p className="text-muted-foreground w-full text-center">+91 9437810814</p>
-          <p className="text-muted-foreground w-full text-center">aptifyrofficial@gmail.com</p>
+          <p className="text-muted-foreground w-full text-center">contact@aptifyr.in</p>
         </div>
       </div>
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
