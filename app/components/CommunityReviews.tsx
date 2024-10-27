@@ -27,9 +27,9 @@ const combinedData: CardData[] = [
     "imageUrl": "/reviews/dibyashakti.png"
   },
   {
-    "title": "Farheen Fathima",
+    "title": "Pritee Das",
     "text": "“I’ve learned so much from the interactive sessions. The practical tips and real-world applications have been immensely helpful.”",
-    "imageUrl": "/reviews/farheen_fathima.png"
+    "imageUrl": "/reviews/pritee.jpeg"
   },
   {
     "title": "Jateen Sahu",
